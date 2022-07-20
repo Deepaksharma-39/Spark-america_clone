@@ -13,10 +13,10 @@ let footer=()=>{
       <a href="">JOIN THE MOVEMENT</a>
     </div>
     <div>
-      <a href=""> PARTNERS </a>
+      <a href="./partners.html"> PARTNERS </a>
     </div>
     <div>
-      <a href=""> CALENDAR </a>
+      <a href="calender.html"> CALENDAR </a>
     </div>
     <div>
       <a href=""> THE APP </a>
