@@ -1,12 +1,15 @@
 #menu-link{
     display: flex;
     gap: 20px;
-    width:70%;
+    width:65%;
     margin: auto;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+    
 
  }
  #head-logo{

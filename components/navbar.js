@@ -12,11 +12,11 @@ const navbar=()=>{
     </div>
 
     <div>
-      <a href=""> PARTNERS </a>
+      <a href="./partners.html"> PARTNERS </a>
     </div>
 
     <div>
-      <a href=""> CALENDAR </a>
+      <a href="calender.html"> CALENDAR </a>
     </div>
 
     <div>

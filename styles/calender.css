@@ -1,0 +1,76 @@
+body
+{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.heading_title{
+    color: #000000;
+font-size: 28px;
+line-height: 30px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 0px;
+margin-left: 10px;
+margin-right: 10px;
+}
+#Calender_description {
+padding-top: 50px;
+width: 75%;
+margin: auto;
+}
+#Calender_description > div {
+width: 30%;
+border-bottom:  3px solid #d7282f;
+}
+#Calender_description > span {
+font-size: 30px;
+font-family: "Roboto", sans-serif; 
+}
+#Calender_description > p {
+text-align: left;
+}
+#calender_grid{
+padding-top: 20px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(4);
+gap: 20px;
+width: 80%;
+margin: auto;
+}
+#calender_grid>div{
+padding: 10px;
+border: 1px solid black;
+}
+#calender_grid>div>h3{
+display: block;
+margin: auto;
+margin-bottom:20px;
+width: 50%;
+font-size: 20px;
+font-family: "Roboto", sans-serif; 
+}
+#calender_grid>div>p{
+display: block;
+margin: auto;
+width: 70%;
+font-size: 18px;
+font-family: "Roboto", sans-serif; 
+margin-bottom: 10px;
+}
+
+#calender_grid>div>h2{
+text-align: center;
+
+}
+
+#calender_grid>div>img{
+margin-top: 10px;
+display: block;
+margin: auto;
+width: 70%;
+height: 300px;
+}
