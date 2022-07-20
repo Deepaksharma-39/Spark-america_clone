@@ -1,0 +1,218 @@
+body
+{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+a
+{
+    text-decoration: none;
+}
+.main-head
+{
+    width: 70%;
+    margin: auto;
+}
+.main-head p
+{
+    margin-bottom: 35px;
+}
+.uabb-heading {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #0A0001;
+    font-size: 1.875rem;
+    font-weight: 300;
+    font-family: 'Roboto',sans-serif;
+    text-transform: uppercase;
+    line-height: 0.9;
+}
+.uabb-separator {
+    border-top: 3px solid #d7282f;
+    width: 15%;
+    display: inline-block;
+}
+p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.fl-node1 {
+    width: 70%;
+    margin: auto;
+}
+
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+body, h1, .entry-title a, .entry-content h1, h2, .entry-content h2, h3, .entry-content h3, h4, .entry-content h4, h5, .entry-content h5, h6, .entry-content h6 {
+    color: #222222;
+}
+
+.ast-button, .ast-custom-button, body, button, input[type=button], input[type=submit], textarea {
+    line-height: 1.5;
+}
+
+.fl-node1 > .fl-col-content {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.fl-node1 > .fl-col-content {
+    border-style: solid;
+    border-width: 0;
+    background-clip: border-box;
+    border-color: #000000;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.fl-node2 {
+    width: 50%;
+}
+
+.fl-node3 .fl-photo {
+    text-align: center;
+}
+
+.fl-photo-align-center {
+    text-align: center;
+}
+.fl-photo {
+    line-height: 0;
+    position: relative;
+}
+
+.fl-photo-content {
+    display: inline-block;
+    line-height: 0;
+    position: relative;
+    max-width: 100%;
+}
+
+.fl-photo-content img {
+    display: inline;
+    height: auto;
+    max-width: 100%;
+}
+
+.fl-node4 {
+    width: 50%;
+}
+
+.fl-col-group-equal-height.fl-col-group-align-center .fl-col-content {
+    align-items: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+}
+
+.fl-col-group-equal-height, .fl-col-group-equal-height .fl-col, .fl-col-group-equal-height .fl-col-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.fl-node5 > .fl-module-content {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.fl-node6 > .fl-module-content {
+    margin-top: 0px;
+}
+
+.fl-module-content {
+    margin: 20px;
+}
+
+.fl-node6 .njba-btn-main {
+    text-align: center;
+}
+
+.fl-node6 .njba-btn-main a.njba-btn {
+    background-color: #D7282F;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 18px;
+    border-width: 1px;
+    border-style: none;
+    border-color: #000000;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    transition: all ease 0.3s;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+}
+.entry-content h3 {
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Roboto',sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+
+#doctors
+      {
+        display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,auto);
+            gap: 10px;
+            /* border: 1px solid red; */
+            width: 70%;
+            margin: 0 auto;
+            margin-bottom: 25px;
+      }
+      #doctors>div>img
+      {
+        height: auto;
+        width: 300px;
+      }
+      #doctors>div
+      {
+        padding: 10px;
+        /* padding-left: 20px;
+        padding-right: 20px; */
+        /* text-align: center; */
+        border: 1px solid black;
+      }
+      #doctors>div>p
+      {
+        padding: 20px;
+      }
+      #doctors>div>h6
+      {
+        margin-top: -10px;
+      }
