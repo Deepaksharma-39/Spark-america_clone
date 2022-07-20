@@ -1,0 +1,32 @@
+let footer=()=>{
+    return `<div id="contact-info">
+    <h3>CONTACT US</h3>
+
+    <div><a href="mailto:me@me.com">support@sparkamerica.com</a></div>
+    <div>(888) 330-6891</div>
+    <div>SparkAmerica</div>
+    <div>P.O. Box 123, Oakmont, PA 15139</div>
+  </div>
+  <div id="footer-links">
+    <h3>SPARK AMERICA</h3>
+    <div>
+      <a href="">JOIN THE MOVEMENT</a>
+    </div>
+    <div>
+      <a href=""> PARTNERS </a>
+    </div>
+    <div>
+      <a href=""> CALENDAR </a>
+    </div>
+    <div>
+      <a href=""> THE APP </a>
+    </div>
+    <div>
+      <a href=""> CONTACT US </a>
+    </div>
+    <div>
+      <a href="./register.html"> REGISTER </a>
+    </div>
+  </div>`
+}
+export default footer;
