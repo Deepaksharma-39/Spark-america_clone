@@ -1,5 +1,4 @@
-import { signupDatafunc } from "../components/signupData.js";
-import {signup} from "./signup.js";
+
 
 document.querySelector("#continueButton").addEventListener("click",checkDatabox)
 
@@ -21,10 +20,8 @@ if(flag===true){
     let emailData=inputEmail;
     localStorage.setItem("emailData",emailData);
     console.log(emailData)
-    document.querySelector("#form-div").innerHTML=signupDatafunc();;
-    document.querySelector("#signupButton").addEventListener("click",function(){
-        signup();
-    });
+    window.location.href="./dist/register1.html"
+   ;
     
 }
 
