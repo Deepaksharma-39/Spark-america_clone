@@ -5,40 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <style>
-        body{
-            background: url(https://portal.peopleonehealth.com/Content/Images/CityImages/SparkAmericaCityPageHeader.jpg);
-        }
-        #header-image{
-            display: flex;
-            justify-content: center;
-                margin-top: 40px;
-        }
-        #form{
-            background: white;
-            border-radius: 8px;
-            display: flex;
-            flex-direction: column;
-            width: 40%;
-            justify-content: center;
-            padding: 40px 60px;
-        }
-        #form-div{
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+    <link rel="stylesheet" href="./styles/register.css">
 </head>
 <body>
     <div  id="header-image">
         <img src="https://portal.peopleonehealth.com/Content/Images/CityImages/SparkAmerica2020-02-768x96.png" alt="">
     </div>
     <div id="form-div">
-<form id="form" action="">
-    <label for="email-id">Please enter your email address to get started:</label>
+<form id="form">
+    <p for="email-id">Please enter your email address to get started:</p>
     <input type="text" id="email-id">
-    <label for="">Note: If your organization or company already uses PeopleOne, please enter your company email address above</label>
+    <button id="continueButton">Continue</button>
+    <p for="">Note: If your organization or company already uses PeopleOne, please enter your company email address above</>
 </form>
     </div>
 </body>
 </html>
+<script src="./scripts/register.js" type="module"></script>
+<script src="./scripts/signup.js"></script>
