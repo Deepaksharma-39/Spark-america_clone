@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="./styles/register.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 <body>
     <div  id="header-image">
@@ -15,10 +22,16 @@
 <form id="form">
     <p for="email-id">Please enter your email address to get started:</p>
     <input type="email" id="email-id">
-    <button id="continueButton">Continue</button>
-    <p for="">Note: If your organization or company already uses PeopleOne, please enter your company email address above</>
+    
+    <p for="">Note: If your organization or company already uses PeopleOne, please enter your company email address above.</p>
+    <div class="buttons">
+        <button >GO BACK</button>
+        <button id="continueButton">CONTINUE></button>
+    </div>
 </form>
     </div>
+
+    <h4 id="faq"><a href="">Frequently Asked Questions</a></h4>
 </body>
 </html>
 <script src="./scripts/register.js" type="module"></script>

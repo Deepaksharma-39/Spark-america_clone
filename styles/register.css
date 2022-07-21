@@ -1,21 +1,100 @@
-body{
-    background: url(https://portal.peopleonehealth.com/Content/Images/CityImages/SparkAmericaCityPageHeader.jpg);
+body {
+  background: url(https://portal.peopleonehealth.com/Content/Images/CityImages/SparkAmericaCityPageHeader.jpg);
+  
+  color: #21252983;
 }
-#header-image{
-    display: flex;
-    justify-content: center;
-        margin-top: 40px;
+#header-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
-#form{
-    background: white;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    justify-content: center;
-    padding: 40px 60px;
+#form {
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+  justify-content: center;
+  padding: 40px 60px;
+  font-family: Montserrat, "Helvetica Neue", roboto, helvetica, arial, verdana,
+    sans-serif;
+  line-height: 24px;
+  font-size: 19px;
+  margin-top: 30px;
 }
-#form-div{
-    display: flex;
-    justify-content: center;
+#form1 {
+  font-family: Montserrat, "Helvetica Neue", roboto, helvetica, arial, verdana,
+    sans-serif;
+  margin-top: 30px;
+  background: white;
+  border-radius: 8px;
+  padding: 40px 60px;
+  width: 50%;
+  line-height: 24px;
+}
+#form-div {
+  display: flex;
+  justify-content: center;
+}
+#email-id,
+.inputBox {
+  height: 50px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.781);
+  padding: 8px 12px;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.buttons > button {
+  padding: 8px 12px;
+  border-radius: 8%;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+.buttons > button:nth-child(1) {
+  color: #3d7cc9;
+}
+.buttons > button:nth-child(2) {
+  background-color: #3d7cc9;
+  color: #ffffff;
+}
+#allfields {
+  color: green;
+  font-size: 13px;
+}
+#heading {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+#subheading {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+
+  font-weight: 200;
+}
+#faq {
+  margin: 90px auto 200px auto;
+  text-align: center;
+}
+#faq > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#faq > a:hover {
+  color: #3d7cc9;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
 }

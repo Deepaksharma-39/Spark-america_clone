@@ -37,7 +37,7 @@
             />
           </div>
           <div>
-            <h2>Parv Choudhary</h2>
+            <h2 id="enterName"></h2>
           </div>
         </div>
       </div>
@@ -87,6 +87,7 @@
           <h2>Help</h2>
         </div>
         <div>
+          
           <img
             src="https://portal.peopleonehealth.com/content/images/nav_logout.svg"
           />
@@ -97,3 +98,7 @@
     </div>
   </body>
 </html>
+<script>
+  let loginData=JSON.parse(localStorage.getItem("loginData"));
+  document.querySelector("#enterName").innerText=loginData.firstName;
+</script>
