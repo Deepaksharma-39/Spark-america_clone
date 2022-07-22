@@ -1,0 +1,59 @@
+.box2{
+    margin-top: 100px;
+    width: 80%;
+    height: 200px; 
+    margin-left: 150px;
+}
+div h2{
+    color: rgb(100, 99, 99);
+    font-size: 30px;
+    font-family: Roboto,sans-serif;
+}
+div p{
+color: #222222;
+font-family: sans-serif;
+}
+.box3{
+    margin-top: 10px;
+    width: 80%;
+    height: 400px; 
+    margin-left: 150px;
+    display: flex;
+    gap: 20px;
+   
+}
+.box3 img{
+    
+    width: 100%;
+    height: 300px;
+    
+  
+}
+.insidebox{
+   
+   
+    width: 80%;
+    height: 400px;
+   
+    
+}
+.insidebox p{
+    font-size: 18px;
+    color: #222222;
+    font-family: sans-serif;
+}
+.insidebox li{
+    font-size: 18px;
+    color: #222222;
+    font-family: sans-serif;
+}
+.box4{
+    margin-top: 10px;
+    width: 80%;
+    height: 600px; 
+    margin-left: 150px;
+    display: flex;
+    gap: 20px;
+   
+}
+
