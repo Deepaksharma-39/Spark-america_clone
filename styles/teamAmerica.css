@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    overflow-x:hidden;
+    /* background-color: blue; */
+}
+
+.header-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 99999999;
+    margin-bottom: 30px;
+}
+
+header {
+    /* background-color: rgba(255,255,255,0.5); */
+    padding: 2px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99999999;
+}
+
+header .header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .sidenav-menu-btn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+header .sidenav-menu-btn span {
+    width: 22px;
+    height: 2px;
+    margin-bottom: 3px;
+    background: #fff;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+    color: #000;
+}
+
+img {
+    margin-top: -40px;
+    vertical-align: top;
+    width: 100%;
+    border: 0;
+}
+
+.logo {
+    margin-left: 280px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Footer CSS */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999999999999;
+    top: 0;
+    left: 0;
+    background-color: #F4F5F7;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: all 0.4s ease;
+    padding-top: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidenav a {
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn {
+    right: 5px;
+    font-size: 36px;
+    width: 16px;
+    height: 26px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.close-sidenav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.close-sidenav a {
+    width: 24px;
+    height: 24px;
+}
+.close-sidenav img
+{
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.tab-container {
+    display: flex;
+}
+
+.tabcontent {
+    display: none;
+    padding: 0;
+    width: 70%;
+    border-left: none;
+}
+
+.menu-list,
+.menu-list li {
+    display: block;
+}
+
+.menu-list li a {
+    display: block;
+    padding: 7px 10px 7px 30px;
+    font: 700 14px/24px Arial;
+    color: #000;
+    /* border-bottom: #B9B9B9 solid 1px; */
+}
+
+#mySidenav .tab-container {
+    flex-grow: 1;
+}
+.nav_login_text
+{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+span
+{
+    margin-top: 2px
+}
+.team-title-image
+{
+    margin: auto;
+    width: 650px;
+}
+/*  */
+
+.bg_city {
+    /* padding: 2em 5% 4em 5%; */
+    /* background-size: 110%; */
+    background-repeat: repeat;
+    /* background-position: top center; */
+    position: relative;
+    text-align: center;
+    overflow: visible;
+    /* background-attachment: fixed; */
+}
+.top_city_title {
+    margin: 0 auto 0 auto;
+    padding: 2em 0 2em 0;
+    top: 0;
+}
+
+.top_city_title {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 420px;
+    left: 0;
+    position: absolute;
+    top: 1em;
+}
+.bg_city H1 {
+    text-align: center;
+}
+
+H1.title {
+    font-size: 3em;
+    color: #333;
+    font-weight: 300;
+    margin: 0em auto 0em auto;
+    padding: 0;
+    display: block;
+    line-height: normal;
+    font-style: normal;
+    text-align: left;
+}
+.city_logo {
+    max-width: 40rem;
+    max-height: 10rem;
+}
+.city_img_size {
+    visibility: hidden;
+    position: relative;
+    top: 0;
+    width: 100%;
+    left: 0;
+    max-width: 100%;
+}
+.top_city_btns {
+    width: 100%;
+    text-align: center;
+    left: 0;
+    position: absolute;
+    bottom: 4em;
+}
+.city_btn_unscrolled {
+    background-color: transparent;
+    border-color: white !important;
+}
+.city_join_top_btn {
+    font-size: 1.3em;
+    padding: 0.8em 2.5em !important;
+    text-transform: uppercase;
+    transition: background-color 1s;
+}
+.round {
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
+    border-radius: 4em !important;
+    outline: none !important;
+}
+.btn-outline-light {
+    color: #f8f9fa;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f8f9fa;
+}
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+.mr-2, .mx-2 {
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+    margin-top: 0.75rem !important;
+    margin-bottom: 0.75rem !important;
+}
+.curve_white_btm {
+    bottom: -0.1em;
+    left: 0;
+    background-image: url("https://portal.peopleonehealth.com/content/images/curve_white_btm.svg");
+    background-position: bottom;
+    width: 100%;
+    position: absolute;
+    background-size: 103%;
+    background-repeat: no-repeat;
+    height: 3em;
+    z-index: 1;
+}
+.text-center
+{
+    text-align: center;
+}
+.text-center>img
+{
+    margin-top: 5px;
+}
+.margintoppow
+{
+    margin-top: 80px;
+}
+
+
+
+
+LI {
+    display: block;
+    position: relative;
+    margin: 0;
+}
+.nav_a1
+{
+    transition: color .3s ease-in, background-color .3s ease-in;
+    padding: 0.8em 0.5em 0.8em 1em;
+    display: flex;
+    color: #000 !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    position: relative;
+}
+.nav_i>img{
+    height: 1.5em;
+    margin-top: 20px;
+}
+.nav_i
+{
+    display: block;
+    margin-right: 150px;
+}
+.nav_link {
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: -22px;
+}
