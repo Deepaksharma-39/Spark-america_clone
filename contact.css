@@ -1,0 +1,190 @@
+.box{
+    margin-top: 200px;
+    width: 80%;
+    height: 250px; 
+    margin-left: 150px;
+    
+}
+
+.text{
+  color: #0A0001;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.editor p{
+font-size: 14.592;
+font-family: sans-serif;
+color:#222222;
+}
+.box2{
+    margin-top: 20px;
+    width: 100%;
+    height: 480px; 
+    margin-left: 150px;
+    display: flex;
+    padding: 20px;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.wpforms-container .wpforms-field {
+    padding: 10px 0;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    position: relative;
+}
+.wpforms-container input[type=date], .wpforms-container input[type=datetime], .wpforms-container input[type=datetime-local], .wpforms-container input[type=email], .wpforms-container input[type=month], .wpforms-container input[type=number], .wpforms-container input[type=password], .wpforms-container input[type=range], .wpforms-container input[type=search], .wpforms-container input[type=tel], .wpforms-container input[type=text], .wpforms-container input[type=time], .wpforms-container input[type=url], .wpforms-container input[type=week], .wpforms-container select, .wpforms-container textarea {
+    display: block;
+    width: 50%;
+    height: 50px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float: none;
+}
+.wpforms-container .wpforms-field-label-inline {
+    display: inline;
+    vertical-align: baseline;
+    font-weight: 400px;
+}
+.wpforms-container ul, .wpforms-container ul li {
+    background: none;
+    background-image: none;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
+.wpforms-field-label-inline{
+    font-size: 20px;
+    color: #222222;
+}
+.wpforms-container .wpforms-recaptcha-container {
+    padding: 10px 0 20px 0;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    clear: both;
+}
+.recaptcha-checkbox {
+    border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    font-size: 1px;
+    height: 28px;
+    margin: 4px;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    width: 28px;
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    outline: 0;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+    vertical-align: text-bottom;
+}
+.recaptcha-checkbox-border {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 2px solid #c1c1c1;
+    font-size: 1px;
+    height: 24px;
+    position: absolute;
+    width: 24px;
+    z-index: 1;
+}
+.menu-toggle, button, .ast-button, .ast-custom-button, .button, input#submit, input[type="button"], input[type="submit"], input[type="reset"] {
+    border-style: solid;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    color: #ffffff;
+    border-color: #d7282f;
+    border-top-color: rgb(215, 40, 47);
+    border-right-color: rgb(215, 40, 47);
+    border-bottom-color: rgb(215, 40, 47);
+    border-left-color: rgb(215, 40, 47);
+    background-color: #d7282f;
+    border-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.9;
+    text-transform: uppercase;
+    
+}
