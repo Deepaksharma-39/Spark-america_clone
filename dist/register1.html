@@ -1,65 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../styles/register.css">
-</head>
-<body>
-   
-        
-        <form id="form">
-            <p id="heading">Welcome to SparkAmerica!</p>
-        <p id="subheading">We need to get to know you and you'll be on your way in no time.</p>
-            <p>All fields required.</p>
-            <input type="email" id="email" >
-            <input type="password" id="password" placeholder="Enter Password">
-            <input type="password" id="rePassword" placeholder="Enter Password Again">
-            <input type="text" id="firstName" placeholder="First Name">
-            <input type="text" id="lastName" placeholder="Last Name">
-            
-            <input type="date" id="dob" ">
-            <input type="text" maxlength="6" placeholder="Zip code" id="zipCode">
-            <p>Create a username that will be displayed publicly on leaderboards. This can be fun and must be unique, so try adding some numbers to the end if your first choice is already taken. </p>
-            <input type="text" id="username" placeholder="Username">
-            <P>Select the city closest to you to participate in city challenges (optional).</P>
-            <input type="checkbox" id="checkbox1">
-            <label for="checkbox1">I have read and agree to PeopleOne's <a href="https://portal.peopleonehealth.com/HealthyLiving/Article/1463" target="_blank">Terms of Use.</a></label>
+    <link rel="stylesheet" href="../styles/register.css" />
+  </head>
+  <body>
+    <form id="form">
+      <p id="heading">Welcome to SparkAmerica!</p>
+      <p id="subheading">
+        We need to get to know you and you'll be on your way in no time.
+      </p>
+      <p>All fields required.</p>
+      <input type="email" id="email" />
+      <input type="password" id="password" placeholder="Enter Password" />
+      <input
+        type="password"
+        id="rePassword"
+        placeholder="Enter Password Again"
+      />
+      <input type="text" id="firstName" placeholder="First Name" />
+      <input type="text" id="lastName" placeholder="Last Name" />
 
-            <input type="checkbox" id="checkbox2">
-            <label for="checkbox2">I have read and agree to PeopleOne's <a href="https://portal.peopleonehealth.com/HealthyLiving/Article/1464" target="_blank">Privacy Policy.</a></label>
-            <div>
-                <button >GO BACK</button>
-                <button id="signupButton" onclick="saveData()">Create Account</button>
-            </div>
-        </form>
-    
-</body>
+      <input type="date" id="dob" ">
+      <input type="text" maxlength="6" placeholder="Zip code" id="zipCode" />
+      <p>
+        Create a username that will be displayed publicly on leaderboards. This
+        can be fun and must be unique, so try adding some numbers to the end if
+        your first choice is already taken.
+      </p>
+      <input type="text" id="username" placeholder="Username" />
+      <p>
+        Select the city closest to you to participate in city challenges
+        (optional).
+      </p>
+      <input type="checkbox" id="checkbox1" />
+      <label for="checkbox1"
+        >I have read and agree to PeopleOne's
+        <a
+          href="https://portal.peopleonehealth.com/HealthyLiving/Article/1463"
+          target="_blank"
+          >Terms of Use.</a
+        ></label
+      >
+
+      <input type="checkbox" id="checkbox2" />
+      <label for="checkbox2"
+        >I have read and agree to PeopleOne's
+        <a
+          href="https://portal.peopleonehealth.com/HealthyLiving/Article/1464"
+          target="_blank"
+          >Privacy Policy.</a
+        ></label
+      >
+      <div>
+        <button>GO BACK</button>
+        <button id="signupButton" onclick="saveData()">Create Account</button>
+      </div>
+    </form>
+  </body>
 </html>
 <script>
-    
-function saveData(){
-    event.preventDefault()
+  function saveData() {
+    event.preventDefault();
     let firstName = document.getElementById("firstName").value;
     let lastName = document.getElementById("lastName").value;
-    let dob=document.getElementById("dob").value;
+    let dob = document.getElementById("dob").value;
     let password = document.getElementById("password").value;
     let matchPassword = document.getElementById("rePassword").value;
     let username = document.getElementById("username").value;
-    let zipCode=document.querySelector("#zipCode").value;
+    let zipCode = document.querySelector("#zipCode").value;
     //console.log(Mobile)
 
-    let checkbox1=document.querySelector("#checkbox1");
-    let checkbox2=document.querySelector("#checkbox2");
-   
-        
-        user.signUp(password, matchPassword,firstName,lastName,dob, zipCode,username)
-        console.log(user)
-    
-  
-   }
+    let checkbox1 = document.querySelector("#checkbox1");
+    let checkbox2 = document.querySelector("#checkbox2");
+
+    user.signUp(
+      password,
+      matchPassword,
+      firstName,
+      lastName,
+      dob,
+      zipCode,
+      username
+    );
+    console.log(user);
+  }
 </script>
 <!-- <script>
     document.querySelector("#email").value=localStorage.getItem("emailData");
