@@ -1,5 +1,5 @@
-const navbar=()=>{
-    return `<div id="head-logo">
+const navbar = () => {
+  return `<div id="head-logo">
     <img
       src="https://secureservercdn.net/45.40.145.201/79x.0e9.myftpupload.com/wp-content/uploads/2020/11/SparkAmerica2020-02-515x65.png"
       alt=""
@@ -20,11 +20,11 @@ const navbar=()=>{
     </div>
 
     <div>
-      <a href=""> THE APP </a>
+      <a href="The_app.html"> THE APP </a>
     </div>
 
     <div>
-      <a href=""> CONTACT US </a>
+      <a href="contact.html"> CONTACT US </a>
     </div>
 
     <div>
@@ -33,7 +33,8 @@ const navbar=()=>{
 
     <div id="logo-icon">
       <a
-        href="https://www.facebook.com/SparkAmericaMovement"
+        
+      href="https://www.instagram.com/sparkamericamovement/"
         target="_blank"
       >
         <img
@@ -43,7 +44,7 @@ const navbar=()=>{
         />
       </a>
       <a
-        href="https://www.instagram.com/sparkamericamovement/"
+      href="https://www.facebook.com/SparkAmericaMovement"
         target="_blank"
       >
         <img
@@ -53,6 +54,6 @@ const navbar=()=>{
         />
       </a>
     </div>
-  </div>`
-}
+  </div>`;
+};
 export default navbar;

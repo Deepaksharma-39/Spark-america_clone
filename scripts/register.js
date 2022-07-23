@@ -1,37 +1,8 @@
 
 
-// document.querySelector("#continueButton").addEventListener("click",checkDatabox)
-
 import signupForm from "../components/signupdata.js";
 import verifyPageContent from "../components/verifyPage.js";
 
-// function checkDatabox(event){
-//     event.preventDefault()
-// let signupData=JSON.parse(localStorage.getItem("signupData"))||[];
-// let inputEmail=document.querySelector("#email-id").value;
-// let flag=false;
-// let filter=signupData.filter((el)=>{
-// return el.email==inputEmail;
-// })
-// if(filter.length>0){
-//     alert("email already exists")
-// }else{
-//     flag=true;
-// }
-// console.log(flag)
-// if(flag===true){
-//     let emailData=inputEmail;
-//     localStorage.setItem("emailData",emailData);
-//     console.log(emailData)
-//     window.location.href="./dist/register1.html"
-//    ;
-    
-// }
-
-
-// }
-
-// experimental
 
 class Users {
            
@@ -59,6 +30,9 @@ class Users {
                        
         localStorage.setItem("signupData",JSON.stringify(data));
     }
+    login(){
+        
+    }
 }
 document.querySelector("#continueButton").addEventListener("click",enterInfoFunc);
 
@@ -78,6 +52,7 @@ function enterInfoFunc(){
     if(flag==true){
         // go to login page
         alert("already registered")
+        window.location.href="./login.html"
     }else{
         user=new Users(email);
             console.log(user);
@@ -91,6 +66,12 @@ function enterInfoFunc(){
         document.querySelector("#email").value=user.email;
             document.querySelector("#signupButton").addEventListener("click",saveData)
             
+
+
+   
+    }
+
+}
 function saveData(){
     event.preventDefault();
     let firstName = document.getElementById("firstName").value;
@@ -117,10 +98,8 @@ function saveData(){
    }
 
    function login(event){
-    event.preventDefaul();
-    console.log("hi")
+    event.preventDefault();
+    user=JSON.stringify(user)
+    localStorage.setItem("loginData",user)
+    window.location.href="./dashboard.html"
    }
-    }
-
-}
-
