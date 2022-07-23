@@ -19,10 +19,10 @@ let footer=()=>{
       <a href="calender.html"> CALENDAR </a>
     </div>
     <div>
-      <a href=""> THE APP </a>
+      <a href="The_app.html"> THE APP </a>
     </div>
     <div>
-      <a href=""> CONTACT US </a>
+      <a href="contact.html"> CONTACT US </a>
     </div>
     <div>
       <a href="./register.html"> REGISTER </a>
