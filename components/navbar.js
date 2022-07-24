@@ -1,14 +1,15 @@
 const navbar = () => {
   return `<div id="head-logo">
-    <img
-      src="https://secureservercdn.net/45.40.145.201/79x.0e9.myftpupload.com/wp-content/uploads/2020/11/SparkAmerica2020-02-515x65.png"
-      alt=""
-    />
+  <a href="./landingpage.html">
+  <img
+    src="https://secureservercdn.net/45.40.145.201/79x.0e9.myftpupload.com/wp-content/uploads/2020/11/SparkAmerica2020-02-515x65.png"
+    alt=""
+/></a>
   </div>
 
   <div id="menu-link">
-    <div>
-      <a href="">JOIN THE MOVEMENT</a>
+  <div>
+  <a href="./teamAmerica.html">JOIN THE MOVEMENT</a>
     </div>
 
     <div>

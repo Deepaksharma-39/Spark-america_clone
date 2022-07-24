@@ -1,0 +1,173 @@
+body
+{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#landingpage_top {
+height: 1000px;
+background-image: url('https://sparkamerica.com/wp-content/uploads/2020/12/HomeHeader1.jpg');
+background-position-x:50%;
+background-position-y:50%;
+/* background-repeat-x: no-repeat; */
+    background-repeat-y: no-repeat;
+    /* background-size: contain; */
+
+  }
+  #landingpage_top_content{
+height: 400px;
+width: 50%;
+margin-left: 180px;
+margin-top: 150px;
+background-color: #f0d7d7;
+padding: 20px 20px 0px 20px;
+border-radius: 30px;
+  }
+  #landingpage_top_content > div {
+    width: 30%;
+    border-bottom:  3px solid #d7282f;
+    }
+    #landingpage_top_content > span {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif; 
+    }
+    #landingpage_top_content > p {
+    text-align: left;
+    font-size: 20px;
+    }
+    #landingpage_mid_part1{
+      height: 950px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #landingpage_mid_part1_content{
+      width: 70%;
+      height: auto;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    #landingpage_mid_part1_content>div{
+      width: 47%;
+      height: auto;
+    }
+    .landingpage_mid_part1_content_div {
+      width: 30%;
+      border-bottom:  3px solid #d7282f;
+      }
+      #landingpage_mid_part1_content > div>span {
+      font-size: 30px;
+      font-family: "Roboto", sans-serif; 
+      }
+      #landingpage_mid_part1_content >div> p {
+      text-align: left;
+      font-size: 20px;
+    
+      }
+      #space{
+        height: 30px;
+      }
+      .landingpage_mid_part1_content_img{
+        height: 500px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .landingpage_mid_part1_content_img>img{
+        width: 100%;
+        height: 100%;
+  
+      }
+      .landingpage_mid_part1_content_button{
+        display: block;
+      
+        margin: auto;
+        height: 50px;
+        width: 300px;
+        border-radius: 30px;
+        border: solid red;
+        background-color: #d7282f;
+        font-size: 18px;
+        color: white;
+      }
+      .landingpage_mid_part1_content_button:hover{
+        background-color: #d7a4a6;
+      }
+      #landingpage_mid_part2{
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #landingpage_mid_part2>div{
+        width: 85%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #landingpage_mid_part2>div>div{
+        width: 85%;
+        height: auto;
+        background-color: #f0d7d7;
+        padding: 20px;
+        border-radius: 30px;
+      }
+      #landingpage_mid_part2>div>div> div {
+    width: 30%;
+    border-bottom:  3px solid blue;
+    }
+    #landingpage_mid_part2>div>div > span {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif; 
+    }
+    #landingpage_mid_part2>div>div> p {
+    text-align: left;
+    font-size: 20px;
+    }
+    #landingpage_mid_part2_img{
+      background-image: url('https://sparkamerica.com/wp-content/uploads/2020/11/HomePage_AboutUsSectionImg.jpg')  
+
+      }
+      #landingpage_mid_part3{
+        height: 900px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #landingpage_mid_part3>div{
+        height: 750px;
+        width: 80%;
+        display: flex;
+      }
+      #landingpage_mid_part3>div>div:nth-child(1){
+        height: 750px;
+        width: 35%;
+      }
+      
+      #landingpage_mid_part3>div>div:nth-child(1)> div {
+        width: 30%;
+        border-bottom:  3px solid red;
+        }
+        #landingpage_mid_part3>div>div:nth-child(1)> span {
+        font-size: 30px;
+        font-family: "Roboto", sans-serif; 
+        }
+        #landingpage_mid_part3>div>div:nth-child(1)> p {
+        text-align: left;
+        font-size: 20px;
+        }
+        #landingpage_mid_part3>div>div:nth-child(2){
+          height: 750px;
+          width: 65%;
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          grid-template-rows: repeat(2,365px);
+          gap: 20px;
+        }
+        #landingpage_mid_part3>div>div:nth-child(2)>div>img{
+        height:100%;
+        width: 100%;
+        }
