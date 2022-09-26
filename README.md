@@ -17,7 +17,8 @@
 
 [![portfolio](https://img.shields.io/badge/Deepak_Sharma-000?style=for-the-badge&logo=ko-fi&logoColor=gold)](https://deepaksharma-39.github.io/)
 
-[![portfolio](https://img.shields.io/badge/Rishabh Srivastava-000?style=for-the-badge&logo=ko-fi&logoColor=pink)](https://rish2408.github.io/)
+[![portfolio](https://img.shields.io/badge/Rishabh-Srivatava-000?style=for-the-badge&logo=ko-fi&logoColor=gold)]([https://deepaksharma-39.github.io/](https://rish2408.github.io/))
+
 
 
 
